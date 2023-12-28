@@ -9,16 +9,16 @@ export default function Home() {
       render={({state, fullpageApi}) => {
         return (
           <ReactFullpage.Wrapper>
-            <div className="section bg-red-400">
+            <div className="section bg-red-400 h-screen !justify-start">
               <p>Section 1</p>
               <button onClick={() => fullpageApi.moveSectionDown()}>
                 Click me to move down
               </button>
             </div>
-            <div className="section bg-blue-500">
+            <div className="section bg-blue-500 h-screen !justify-start">
               <p>Section 2</p>
             </div>
-            <div className="section bg-yellow-500">
+            <div className="section bg-yellow-500 h-screen !justify-start">
               <p>Section 3</p>
             </div>
           </ReactFullpage.Wrapper>
